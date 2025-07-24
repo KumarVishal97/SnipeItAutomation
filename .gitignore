@@ -11,6 +11,10 @@ obj/
 
 # Ignore Playwright generated files
 .playwright/
+node_modules/
+*.js
+*.ts
+
 
 # OS generated files
 Thumbs.db
