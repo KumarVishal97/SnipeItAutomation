@@ -16,25 +16,24 @@ The test script:
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) installed
 - [Playwright CLI](https://playwright.dev/dotnet/docs/intro) installed and browsers downloaded
 
-```bash
 dotnet tool install --global Microsoft.Playwright.CLI
 playwright install
 
-How to run tests
-Clone the repository:
-git clone https://github.com/yourusername/SnipeItAutomation.git
+## How to run tests
+1. Clone the repository:
+git clone https://github.com/KumarVishal97/SnipeItAutomation.git
 cd SnipeItAutomation
 
-Restore dependencies:
+2. Restore dependencies:
 dotnet restore
 
-Run tests:
+3. Run tests:
 dotnet test
 Tests will launch a Chromium browser and perform the automated steps.
 
-Notes
+## Notes
 Tests run in headed mode (Headless = false) so you can watch the browser automation.
 
-Credentials for the demo site are hardcoded as:
+## Credentials for the demo site are hardcoded as:
 Username: admin
 Password: password
